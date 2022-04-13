@@ -2,7 +2,7 @@
 
 ## Link
 
-- Live site: [My Blog](ttps://samsonsham.github.io/my-blog-webpack/ 'My Blog')
+- Live site: [My Blog](http://ec2-18-170-107-111.eu-west-2.compute.amazonaws.com/my-blog-webpack 'My Blog')
 
 ## Screenshots
 
