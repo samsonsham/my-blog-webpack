@@ -5,5 +5,3 @@ dist
 .vscode/
 .env
 
-# production
-/build
