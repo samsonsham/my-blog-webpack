@@ -16,12 +16,21 @@ const App = () => (
       <Container>
         <div className="page-body">
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/articles-list" element={<ArticlesListPage />} />
-            <Route path="/article/:name" element={<ArticlePage />} />
-            <Route path="/404" element={<NotFound />} />
-            <Route path="*" element={<Navigate replace to="/404" />} />
+            <Route path="/my-blog-webpack" element={<HomePage />} />
+            <Route path="/my-blog-webpack/about" element={<AboutPage />} />
+            <Route
+              path="/my-blog-webpack/articles-list"
+              element={<ArticlesListPage />}
+            />
+            <Route
+              path="/my-blog-webpack/article/:name"
+              element={<ArticlePage />}
+            />
+            <Route path="/my-blog-webpack/404" element={<NotFound />} />
+            <Route
+              path="/my-blog-webpack/*"
+              element={<Navigate replace to="/my-blog-webpack/404" />}
+            />
           </Routes>
         </div>
       </Container>

@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "proxy": "http://ec2-18-170-107-111.eu-west-2.compute.amazonaws.com",
   "scripts": {
     "start": "webpack serve --mode development --env development",
     "deploy": "gh-pages -d build",

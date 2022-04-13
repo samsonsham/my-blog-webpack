@@ -19,9 +19,6 @@ module.exports = {
     },
     historyApiFallback: true,
     hot: true,
-    proxy: {
-      '/api': 'http://ec2-18-170-107-111.eu-west-2.compute.amazonaws.com/',
-    },
   },
   module: {
     rules: [
