@@ -21,7 +21,10 @@ const ArticlePage = () => {
   useEffect(() => {
     const fethcData = async () => {
       const res = await fetch(
-        `http://ec2-18-170-107-111.eu-west-2.compute.amazonaws.com/api/articles/${name}`
+        `http://ec2-18-170-107-111.eu-west-2.compute.amazonaws.com/api/articles/${name}`,
+        {
+          headers: { Origin: window.location.host },
+        }
       )
       const data = await res.json()
       console.log(data)
