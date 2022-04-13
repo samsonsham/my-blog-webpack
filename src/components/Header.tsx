@@ -14,5 +14,4 @@ const Header = () => (
     </ul>
   </nav>
 )
-
 export default Header
