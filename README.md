@@ -1,5 +1,7 @@
 # My Blog
 
+A full stack M-E-R-N Application build with WebPack and Typescript.
+
 ## Link
 
 - Live site: [My Blog](http://ec2-18-170-107-111.eu-west-2.compute.amazonaws.com/my-blog-webpack 'My Blog')
