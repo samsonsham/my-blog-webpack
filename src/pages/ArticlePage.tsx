@@ -14,18 +14,13 @@ const ArticlePage = () => {
   const article = articleContent.find((article) => article.name === name)
 
   const [articleInfo, setArticleInfo] = useState<ArticleInfo>({
-    upvotes: 1,
+    upvotes: 0,
     comments: [],
   })
 
   useEffect(() => {
     const fethcData = async () => {
-      const res = await fetch(
-        `http://ec2-18-170-107-111.eu-west-2.compute.amazonaws.com/api/articles/${name}`,
-        {
-          headers: { Origin: window.location.host },
-        }
-      )
+      const res = await fetch(`/api/articles/${name}`)
       const data = await res.json()
       console.log(data)
       setArticleInfo(data)
