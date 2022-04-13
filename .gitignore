@@ -1,6 +1,9 @@
-node_modules
+/node_modules
 .prettierrc
 dist
 .DS_Store
 .vscode/
 .env
+
+# production
+/build
